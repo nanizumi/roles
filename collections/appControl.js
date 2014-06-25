@@ -1,0 +1,1 @@
+AppControl = new Meteor.Collection ('appControl');
