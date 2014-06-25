@@ -9,7 +9,7 @@ less
 iron-router
 spin
 insecure
-autopublish
 accounts-base
 bootstrap3-less
 jquery
+roles
