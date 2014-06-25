@@ -3,6 +3,10 @@
     <h2>Sample strucure for meteor app</h2>
     <p>Lorem ipsum...</p>
     <span class="glyphicon glyphicon-align-center"></span>
+    <p>The current user is of role {{checkRoles}}</p>
 
+      {{#if isInRole 'admin'}}
+          <p>only admins get to see this sentence!</p>
+      {{/if}}
   </div>
 </template>

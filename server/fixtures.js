@@ -1,9 +1,7 @@
 //insert fixtures here
-if(AppControl.find().count() === 0 )
+if(AppControl.find({'status':'initialized'}).count() === 0 )
 {
-  //add data to appcontrol
-
-  Accounts.createUser({
+  var adminId = Accounts.createUser({
     'username' : 'admin',
     'email' : 'admin@doe.com',
     'password' : '123123', //encrypted automatically
@@ -12,7 +10,9 @@ if(AppControl.find().count() === 0 )
     }
   });
 
-  Accounts.createUser({
+  Roles.addUsersToRoles(adminId, ['admin']);
+
+  var jonhId = Accounts.createUser({
     'username' : 'jon.doe',
     'email' : 'john@doe.com',
     'password' : 'abc123', //encrypted automatically
@@ -21,7 +21,9 @@ if(AppControl.find().count() === 0 )
     }
   });
 
-  Accounts.createUser({
+  Roles.addUsersToRoles(jonhId, ['normal']);
+
+  var testId = Accounts.createUser({
     'username' : 'test',
     'email' : 'test@home.com',
     'password' : '123123', //encrypted automatically
@@ -30,5 +32,7 @@ if(AppControl.find().count() === 0 )
     }
   });
 
-  AppControl.insert({what: 'something'});
+  Roles.addUsersToRoles(testId, ['professor']);
+
+  AppControl.insert({'status': 'initialized'});
 }

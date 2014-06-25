@@ -3,6 +3,7 @@
     "iron-router": {},
     "spin": {},
     "bootstrap3-less": {},
-    "roles": {}
+    "roles": {},
+    "accounts-ui-bootstrap-3": {}
   }
 }
