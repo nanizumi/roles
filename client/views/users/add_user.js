@@ -4,8 +4,28 @@ Template.addUser.events({
 
     var user = {
       'username': $(e.target).find('[name=InputUserName]').val(),
-      'password': $(e.target).find('[name=InputPassword]').val()
-    }
+      'email': $(e.target).find('[name=InputEmail]').val(),
+      'password': $(e.target).find('[name=InputPassword]').val(),
+      'profile': {
+        'name': $(e.target).find('[name=InputNome]').val()
+      }
+    };
+
+    //todo: perform validation...
+
+    Meteor.call('addUser', user, function (error, result) {
+      if (error) {
+        // optionally use a meteor errors package
+        if (typeof Errors === "undefined")
+          Log.error('Error: ' + error.reason);
+        else {
+          Errors.throw(error.reason);
+        }
+      } else {
+        Router.go ('listUsers');
+        //Router.go ('userDetail', {_id: result});
+      }
+    });
 
 //    var testId = Accounts.createUser({
 //      'username' : 'test',
