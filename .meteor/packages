@@ -8,7 +8,6 @@ accounts-password
 less
 iron-router
 spin
-insecure
 accounts-base
 bootstrap3-less
 jquery
