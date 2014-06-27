@@ -4,6 +4,7 @@
     "spin": {},
     "bootstrap3-less": {},
     "roles": {},
-    "accounts-ui-bootstrap-3": {}
+    "accounts-ui-bootstrap-3": {},
+    "autoform": {}
   }
 }

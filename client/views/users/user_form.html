@@ -1,0 +1,14 @@
+<template name="userForm">
+    {{#autoForm schema=userFormSchema id="userForm" type="method" meteormethod="autoAddUser"}}
+      <fieldset>
+        <legend>Criar novo utilizador</legend>
+          {{> afQuickField name="username"}}
+          {{> afQuickField name="email"}}
+          {{> afQuickField name="password"}}
+          {{> afQuickField name="profile"}}
+        <div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </fieldset>
+    {{/autoForm}}
+</template>

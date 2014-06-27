@@ -29,8 +29,16 @@ mrt add bootstrap3-less
 echo "spin..."
 mrt add spin
 
+echo "roles..."
 mrt add roles
+echo "accounts-ui-bootstrap-3"
 mrt add accounts-ui-bootstrap-3
+
+
+echo "autoform and collection2"
+mrt add autoform
+mrt add collection2
+
 
 #echo "add meteorErrors custom package..."
 #meteor add errors

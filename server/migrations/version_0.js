@@ -1,7 +1,10 @@
 //insert fixtures here
 Meteor.startup(function () {
+
   if(AppControl.find({'status':'initialized'}).count() === 0 )
   {
+    Meteor._debug('importing database v0');
+
     var adminId = Accounts.createUser({
       'username' : 'admin',
       'email' : 'admin@doe.com',
