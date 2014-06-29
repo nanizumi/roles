@@ -39,7 +39,8 @@ echo "autoform and collection2"
 mrt add autoform
 mrt add collection2
 
-
+echo "moment"
+mrt add moment
 #echo "add meteorErrors custom package..."
 #meteor add errors
 

@@ -17,28 +17,6 @@ Meteor.startup(function () {
 
     Roles.addUsersToRoles(adminId, ['admin']);
 
-    var jonhId = Accounts.createUser({
-      'username' : 'jon.doe',
-      'email' : 'john@doe.com',
-      'password' : 'abc123', //encrypted automatically
-      'profile': {
-        'name': 'Jonh Doe'
-      }
-    });
-
-    Roles.addUsersToRoles(jonhId, ['normal']);
-
-    var testId = Accounts.createUser({
-      'username' : 'test',
-      'email' : 'test@home.com',
-      'password' : '123123', //encrypted automatically
-      'profile': {
-        'name': 'Test User'
-      }
-    });
-
-    Roles.addUsersToRoles(testId, ['professor']);
-
     AppControl.insert({'status': 'initialized'});
     AppControl.insert({'version': 0});
   }

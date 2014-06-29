@@ -1,0 +1,72 @@
+[
+	{
+		"username" : "tiago.moutinho",
+		"password" : "tiagomoutinho2013438",
+		"roles" : "aluno",
+		"estado" : "suspenso",
+		"created" : "2013-08-02 18:11:51"
+	},
+	{
+		"username" : "lara.neves",
+		"password" : "laraneves2013447",
+		"roles" : "aluno",
+		"estado" : "suspenso",
+		"created" : "2013-08-05 12:29:06"
+	},
+	{
+		"username" : "mariana.santos",
+		"password" : "marianasantos2012373",
+		"roles" : "aluno",
+		"estado" : "ativo",
+		"created" : "2013-08-05 15:52:26"
+	},
+	{
+		"username" : "patricia.goncalves",
+		"password" : "ngrf8yhj",
+		"roles" : "professor",
+		"estado" : "ativo",
+		"created" : "2013-08-06 12:19:13"
+	},
+	{
+		"username" : "marcio.portugal",
+		"password" : "marcioportugal2013448",
+		"roles" : "aluno",
+		"estado" : "suspenso",
+		"created" : "2013-08-07 14:51:04"
+	},
+	{
+		"username" : "tiago.pombinho",
+		"password" : "mnbde5g7",
+		"roles" : "professor",
+		"estado" : "suspenso",
+		"created" : "2013-08-11 18:11:28"
+	},
+	{
+		"username" : "gabriela.nunes",
+		"password" : "gabrielanunes2012371",
+		"roles" : "aluno",
+		"estado" : "ativo",
+		"created" : "2013-08-16 15:56:57"
+	},
+	{
+		"username" : "michel.binet",
+		"password" : "mnbde5fr",
+		"roles" : "professor",
+		"estado" : "suspenso",
+		"created" : "2013-08-20 16:16:54"
+	},
+	{
+		"username" : "raquel.monteiro",
+		"password" : "ffsse34r",
+		"roles" : "professor",
+		"estado" : "suspenso",
+		"created" : "2013-08-20 17:47:00"
+	},
+	{
+		"username" : "diva.gregorio",
+		"password" : "vfd854aq",
+		"roles" : "professor",
+		"estado" : "suspenso",
+		"created" : "2013-08-21 19:07:31"
+	}
+]

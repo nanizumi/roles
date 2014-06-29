@@ -6,6 +6,7 @@ Template.addUser.events({
       'username': $(e.target).find('[name=InputUserName]').val(),
       'email': $(e.target).find('[name=InputEmail]').val(),
       'password': $(e.target).find('[name=InputPassword]').val(),
+      'createdAt': moment(),
       'profile': {
         'name': $(e.target).find('[name=InputNome]').val()
       }

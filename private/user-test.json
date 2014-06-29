@@ -3,60 +3,70 @@
 		"username" : "admin",
 		"password" : "notaexitopass",
 		"roles" : "admin",
-		"estado" : "ativo"
+		"estado" : "ativo",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "professor",
 		"password" : "notaexitopass",
 		"roles" : "professor",
-		"estado" : "ativo"
+		"estado" : "ativo",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "aluno",
 		"password" : "notaexitopass",
 		"roles" : "aluno",
-		"estado" : "ativo"
+		"estado" : "ativo",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "carina.augusto",
 		"password" : "kntu3d98",
 		"roles" : "professor",
-		"estado" : "suspenso"
+		"estado" : "suspenso",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "francisco.fernandes",
 		"password" : "145gtfm9",
 		"roles" : "professor",
-		"estado" : "suspenso"
+		"estado" : "suspenso",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "leonor.gorgulho",
 		"password" : "nw36nn00",
 		"roles" : "professor",
-		"estado" : "suspenso"
+		"estado" : "suspenso",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "paulo.francisco",
 		"password" : "mjued487",
 		"roles" : "professor",
-		"estado" : "suspenso"
+		"estado" : "suspenso",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "pedro.aniceto",
 		"password" : "tbsl9400",
 		"roles" : "professor",
-		"estado" : "ativo"
+		"estado" : "ativo",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "pedro.moreira",
 		"password" : "buqfn345",
 		"roles" : "professor",
-		"estado" : "suspenso"
+		"estado" : "suspenso",
+		"created" : "2012-01-01 12:00:00"
 	},
 	{
 		"username" : "susana.neves",
 		"password" : "2558defb",
 		"roles" : "professor",
-		"estado" : "suspenso"
+		"estado" : "suspenso",
+		"created" : "2012-01-01 12:00:00"
 	}
 ]
